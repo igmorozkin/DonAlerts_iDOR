@@ -19,7 +19,7 @@ def fetch(session, url):
             f.write(url + '\n')
 
 def make_url():
-    r1 = randrange(11111, 99999)
+    r1 = '6' + str(randrange(1111, 9999))
     r2 = randrange(111, 999)
     return f'http://static.donationalerts.ru/audiodonations/{r1}/{r1}{r2}.wav'
 
