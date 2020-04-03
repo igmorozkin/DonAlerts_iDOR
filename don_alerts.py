@@ -30,7 +30,7 @@ def fetch(session, audio_id: tuple):
 
 
 def make_audio_id():
-    r1 = '6' + str(randrange(1111, 9999))
+    r1 = int('6' + str(randrange(1111, 9999)))
     r2 = randrange(111, 999)
     return (r1, r2)
 
